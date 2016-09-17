@@ -1,11 +1,11 @@
 {
   "cmd": [
-  "osascript '${packages}/ExtendScript-PS/run.scpt' $file"
+  "osascript '${packages}/ExtendScript-PS/run.scpt' '$file'"
   ],
   "shell": true,
   "windows": 
   {
-    "cmd": ["cd ${packages}\\ExtendScript-PS\\ && build.bat $file"],
+    "cmd": ["cd ${packages}\\ExtendScript-PS\\ && build.bat '$file'"],
     "encoding": "cp850"
   }
 }
