@@ -37,6 +37,10 @@ do javascript file (arg's item 1) show debugger never
 do javascript file (arg's item 1) show debugger on runtime error
 ```
 
+## Credits
+
+I've borrowed the idea from a package made by Sebastien Lavoie for AfterEffects (http://seblavoie.com/contact), that I've then tweaked a bit.
+
 ## License
 
 [MIT License](LICENSE)
