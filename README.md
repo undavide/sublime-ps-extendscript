@@ -31,9 +31,12 @@ Locate the file `build.bat` and change the `set version='CC 2015.5'` string to m
 
 You can choose to run the debugger (ESTK) before running, never, or on runtime error. Look in the `run.scpt` file, delete the `do javascript` line and substitute with either:
 
-{lang=applescript}
+```AppleScript
+do javascript file (arg's item 1) show debugger before running
+do javascript file (arg's item 1) show debugger never
+do javascript file (arg's item 1) show debugger on runtime error
 ```
-    do javascript file (arg's item 1) show debugger before running
-    do javascript file (arg's item 1) show debugger never
-    do javascript file (arg's item 1) show debugger on runtime error
-```
+
+## License
+
+[MIT License](LICENSE)
